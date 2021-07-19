@@ -1,12 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finance</title>
-</head>
-<body>
-    <h1>Finance</h1>
-</body>
-</html>
+{% extends "layout.html" %}
+
+{% block title %}
+    Finance
+{% endblock %}
+
+{% block main %}
+    <table>
+        <thead>
+            <tr>
+                <th>Stock</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>Value</th>
+                <th>Cash</th>
+                <th>Account value</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in range(user_rows_length) %}
+                <tr>
+                    <td>{{ user_rows[i]["symbol"] }}</td>
+                    <td>{{ user_rows[i]["shares"] }}</td>
+                    <td>{{ user_rows[i]["price"] }}</td>
+                    <td>{{ user_rows[i]["value"] }}</td>
+                    <td> - </td>
+                    <td> - </td>
+                </tr>
+            {% endfor %}
+            <tr>
+                <td> - </td>
+                <td> - </td>
+                <td> - </td>
+                <td> - </td>
+                <td><strong>{{ cash }}</strong></td>
+                <td><strong>{{ account_value }}</strong></td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}
