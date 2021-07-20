@@ -1,0 +1,18 @@
+.nav {
+    background-color: $color-grey !important;
+
+    &__title {
+        color: $color-primary !important;
+        font-weight: bold;
+    }
+
+    &-link {
+        color: $color-secondary !important;
+
+        &:hover {
+            color: $color-secondary-light;
+            font-weight: bold;
+            box-shadow: 3px 3px 10px rgba(0,0,0 / 0.5);
+        }
+    }
+}

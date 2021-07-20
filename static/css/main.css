@@ -1,0 +1,32 @@
+.nav {
+  background-color: #454 !important;
+}
+.nav__title {
+  color: #118C4F !important;
+  font-weight: bold;
+}
+.nav-link {
+  color: #e9ad03 !important;
+}
+.nav-link:hover {
+  color: #f3c70d;
+  font-weight: bold;
+  box-shadow: 3px 3px 10px black;
+}
+
+.card {
+  width: 50%;
+  height: 70vh;
+  margin: 0 auto;
+  box-shadow: -0.5rem -0.5rem 2rem black;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+body {
+  background-color: #232;
+}
+
+/*# sourceMappingURL=main.css.map */
