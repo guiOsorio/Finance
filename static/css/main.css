@@ -1,32 +1,64 @@
 .nav {
-  background-color: #454 !important;
+  background-color: #232 !important;
 }
 .nav__title {
-  color: #118C4F !important;
+  color: #fff !important;
   font-weight: bold;
 }
 .nav-link {
   color: #e9ad03 !important;
+  font-weight: bold;
 }
 .nav-link:hover {
   color: #f3c70d;
-  font-weight: bold;
-  box-shadow: 3px 3px 10px black;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
 
-.card {
+.card-login {
   width: 50%;
   height: 70vh;
   margin: 0 auto;
-  box-shadow: -0.5rem -0.5rem 2rem black;
+  box-shadow: -0.5rem -0.5rem 2rem rgba(0, 0, 0, 0.2);
   padding: 2rem 0;
+  background-color: #EEE;
   display: flex;
   justify-content: start;
   align-items: center;
 }
 
+.table-standard {
+  padding: 30px;
+  margin: 0 auto;
+  width: 80%;
+  display: table;
+  border-collapse: collapse;
+  text-align: center;
+}
+.table-standard th, .table-standard td {
+  border: 1px solid #999;
+  height: 10vh;
+}
+.table-standard th {
+  color: #118C4F;
+}
+.table-standard td {
+  color: #232;
+}
+
+.form-standard {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding: 5rem;
+}
+
 body {
-  background-color: #232;
+  background-color: #797;
+}
+
+*:focus {
+  outline: none !important;
+  border: none !important;
 }
 
 /*# sourceMappingURL=main.css.map */

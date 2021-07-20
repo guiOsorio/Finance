@@ -5,8 +5,9 @@
 {% endblock %}
 
 {% block main %}
-    <form action="/quote" method="POST">
+    <form action="/quote" method="POST" class="form-standard">
         <label for="symbol">Symbol</label>
         <input type="text" autocomplete="off" name="symbol" id="symbol">
+        <button>Find</button>
     </form>
 {% endblock %}

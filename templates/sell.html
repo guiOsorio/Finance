@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block main %}
-    <form action="/sell" method ="POST">
+    <form action="/sell" method ="POST" class="form-standard">
         <label for="symbol">Symbol</label>
         <select name="symbol" id="symbol">
             {% for symbol in symbols %}

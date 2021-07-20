@@ -1,18 +1,18 @@
 .nav {
-    background-color: $color-grey !important;
+    background-color: $color-grey-dark !important;
 
     &__title {
-        color: $color-primary !important;
+        color: $color-white !important;
         font-weight: bold;
     }
 
     &-link {
         color: $color-secondary !important;
+        font-weight: bold;
 
         &:hover {
             color: $color-secondary-light;
-            font-weight: bold;
-            box-shadow: 3px 3px 10px rgba(0,0,0 / 0.5);
+            box-shadow: 3px 3px 10px rgba($color-black, 0.5);
         }
     }
 }
