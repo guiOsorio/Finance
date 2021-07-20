@@ -1,8 +1,6 @@
 import os
 import sqlite3
 
-# pk_0de66598cd494c66811e8bed422863b4
-
 from flask import Flask, flash, redirect, render_template, request, session
 from flask_session import Session
 from tempfile import mkdtemp
