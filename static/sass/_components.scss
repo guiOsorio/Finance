@@ -21,17 +21,17 @@
     text-align: center;
 
     & th, td {
-        border: 1px solid #999;
+        border: 1px solid $color-grey-mild;
         height: 10vh;
     }
 
     & th {
         color: $color-primary;
-        background-color: #AAA;
+        background-color: $color-grey;
     }
 
     & td {
-        background-color: #EEE;
+        background-color: $color-white;
     }
 }
 
