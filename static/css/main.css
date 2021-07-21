@@ -40,9 +40,10 @@
 }
 .table-standard th {
   color: #118C4F;
+  background-color: #AAA;
 }
 .table-standard td {
-  color: #232;
+  background-color: #DDD;
 }
 
 .form-standard {
