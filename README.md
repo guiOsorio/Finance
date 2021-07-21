@@ -1,8 +1,8 @@
 # Finance
 
-# Athletebook
-
 This web application allows users to login so they can "buy" and "sell" stocks. Based on CS50's final pset "Finance".
+
+### See the project at: https://gui-finance.herokuapp.com/
 
 ## Technologies used / Skills learned:
 - Building a web application with Flask;
