@@ -11,6 +11,18 @@
     align-items: center;
 }
 
+@media only screen and (max-width: 550px) {
+    .card-login {
+        width: 70%;
+        height: 50vh;
+
+        & * {
+            margin: .5rem 5px;
+            
+        }
+    }
+}
+
 .table-standard {
     padding: 30px;
     margin: 0 auto;
