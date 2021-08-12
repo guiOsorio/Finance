@@ -30,16 +30,6 @@
   align-items: center;
 }
 
-@media only screen and (max-width: 550px) {
-  .card-login {
-    width: 70%;
-    height: 50vh;
-  }
-  .card-login * {
-    margin: 0.5rem 5px;
-    margin-right: 15px;
-  }
-}
 .table-standard {
   padding: 30px;
   margin: 0 auto;
@@ -68,6 +58,35 @@
   padding: 5rem;
 }
 
+label {
+  width: 15%;
+  padding-right: 4rem;
+}
+
+input, select {
+  width: 30%;
+  clear: both;
+}
+
+@media only screen and (max-width: 550px) {
+  .card-login {
+    width: 70%;
+    height: 50vh;
+  }
+  .card-login * {
+    margin: 0.5rem 5px;
+    margin-right: 15px;
+  }
+
+  label {
+    padding-right: 0;
+    margin-right: 2rem;
+  }
+
+  input, select {
+    width: 50%;
+  }
+}
 body {
   background-color: #797;
 }

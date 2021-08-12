@@ -12,8 +12,10 @@
                 <option value="{{ symbol['company'] }}">{{ symbol["company"] }}</option>
             {% endfor %}
         </select>
-        <label for="shares"># of shares</label>
+        <br>
+        <label for="shares">Quantity</label>
         <input type="text" autocomplete="off" name="shares" id="shares">
+        <br>
         <button>Sell</button>
     </form>
 {% endblock %}
