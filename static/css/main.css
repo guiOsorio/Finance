@@ -33,6 +33,7 @@
   }
   .card-login * {
     margin: 0.5rem 5px;
+    margin-right: 15px;
   }
 }
 .table-standard {
