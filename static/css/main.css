@@ -62,4 +62,14 @@ body {
   border: none !important;
 }
 
+main {
+  padding: 3rem;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 70%;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
