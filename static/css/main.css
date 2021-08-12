@@ -14,6 +14,10 @@
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
 
+.navbar-toggler {
+  background-color: #e9ad03;
+}
+
 .card-login {
   width: 50%;
   height: 70vh;
@@ -51,6 +55,7 @@
 .table-standard th {
   color: #118C4F;
   background-color: #AAA;
+  width: 15%;
 }
 .table-standard td {
   background-color: #fff;
@@ -76,6 +81,11 @@ main {
   padding: 3rem;
 }
 
+@media only screen and (max-width: 750px) {
+  body {
+    font-size: 80%;
+  }
+}
 @media only screen and (max-width: 500px) {
   body {
     font-size: 70%;
